@@ -90,12 +90,12 @@ public class MainActivity extends AppCompatActivity {
 
         btnMultiply.setOnClickListener(new View.OnClickListener(){
             @Override
-            public void onClick(View view){
+            public void onClick(View view) {
                 btnMultiply.setActivated(true);
                 displayErrorMessage();
                 btnMultiply.setActivated(false);
                 Toast.makeText(getApplicationContext(),
-                        "PRODUCT: " + resultNum,Toast.LENGTH_SHORT).show();
+                        "PRODUCT: " + resultNum, Toast.LENGTH_SHORT).show();
             }
         });
 
